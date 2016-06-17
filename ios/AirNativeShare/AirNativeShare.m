@@ -78,6 +78,8 @@ DEFINE_ANE_FUNCTION(AirNativeShareShowShare) {
                     link = [[CustomLink alloc] initWithFREObject:argv[0] andURLPath:[NSString stringWithUTF8String:(char*)string1]];
                 }
             }
+            
+            NSLog(@"link: %@", link);
         }
         
         // image

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CustomLink : NSURL
+@interface CustomLink : NSURL <UIActivityItemSource>
 
 - (id) initWithFREObject:(FREObject)object andURLPath:(NSString*)urlPath;
 
